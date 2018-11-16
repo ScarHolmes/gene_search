@@ -14,7 +14,7 @@ to run my tests in your terminal go into the Gene_Search folder and run python m
 RUNNING THE APPLICATION 
 
 to run the application please download the folder. Make sure that the needed requirements are there. then in the project folder run 
-python manage.py runserver then open your browser of choose and go to http://localhost:8000/ .  When doing the auto search sadly I
+python manage.py runserver then open your browser of chose and go to http://localhost:8000/ .  When doing the auto search sadly I
 couldn't get the enter key to work, so you will have to actually hit the magnifying glass to do the search.
 
 
