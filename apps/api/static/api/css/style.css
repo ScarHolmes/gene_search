@@ -1,0 +1,37 @@
+.typeahead__field{
+	margin: auto;
+	width: 70%!important;
+	padding-bottom: 50px;
+}
+.header_wrap{
+	margin: auto;
+    width: 70%;
+    text-align: center;
+}
+.header_wrap h2{
+	padding-bottom: 20px;
+}
+.header_wrap a{
+	text-decoration: none;
+	color: black;
+}
+table{
+	margin: auto;
+}
+td, th {
+    border: 1px solid #aca6b09e;;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even){background-color: #2439e517;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #17989e;
+    color: white;
+}

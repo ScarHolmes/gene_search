@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'api/css/style.css' %}">
+	<link rel="stylesheet" href="{% static 'api/jquery.typeahead.min.css' %}">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="{% static 'api/js/js_gene.js' %}"></script>
+	<script src="{% static 'api/jquery.typeahead.min.js' %}"></script>
+	<title>Invitae</title>
+</head>
+<body>
+	<div class="header_wrap">
+		<a href="/"> <h1> Gene Search </h1></a>
+		<h2> Search for a Gene below to find out more about it</h2>
+	</div>
+	 <div class="search-container">
+    <form>
+    {% csrf_token %}
+		<div class="typeahead__container">
+	        <div class="typeahead__field">
+	            <div class="typeahead__query">
+	                <input id="search_bar" class="js-typeahead"
+	                       name="q"
+	                       type="search"
+	                       autocomplete="off">
+	            </div>
+	            <div class="typeahead__button">
+	                <button id="search_button" type="submit">
+	                    <span class="typeahead__search-icon"></span>
+	                </button>
+	        	</div>
+	        </div>
+    	</div>
+    </form>
+    <div id="container"></div>
+  </div>
+</body>
+</html>
